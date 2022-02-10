@@ -1,0 +1,26 @@
+import random
+import numpy as np 
+from tkinter import *
+win = Tk()
+win.title('database')
+class student(object):
+    def __init__(self,name,grade,admin_no):
+        self.name = name
+        self.grade = grade
+        self.admin_no = admin_no
+        print('your name is ',self.name,'and you are in grade ',self.grade,)
+
+
+database_name = []
+database_grade = []
+database_admin_no = []
+
+
+
+
+heading = Label(win,text='welcome to database')
+heading.pack()
+
+
+
+win.mainloop()
